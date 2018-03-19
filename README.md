@@ -26,6 +26,9 @@ Basic Usage
 -----------
 
 ``` php
+use yii\helpers\Json;
+use app\api\widget\highlight\HighlightWidget;
+
 echo HighlightWidget::widget([
     "language" => "json",
     "code" => Json::encode( Json::decode( $data ), JSON_PRETTY_PRINT )
