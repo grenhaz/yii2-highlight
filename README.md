@@ -27,7 +27,7 @@ Basic Usage
 
 ``` php
 use yii\helpers\Json;
-use app\api\widget\highlight\HighlightWidget;
+use grenhaz\highlight\HighlightWidget;
 
 echo HighlightWidget::widget([
     "language" => "json",
