@@ -24,3 +24,10 @@ to the `require` section of your composer.json.
 
 Basic Usage
 -----------
+
+``` php
+echo HighlightWidget::widget([
+    "language" => "json",
+    "code" => Json::encode( Json::decode( $data ), JSON_PRETTY_PRINT )
+]);
+```
