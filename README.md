@@ -21,7 +21,6 @@ or add
 
 to the `require` section of your composer.json.
 
-
 Basic Usage
 -----------
 
@@ -34,3 +33,8 @@ echo HighlightWidget::widget([
     "code" => Json::encode( Json::decode( $data ), JSON_PRETTY_PRINT )
 ]);
 ```
+
+Example
+-------
+
+![Example](example.png?raw=true "Example")
